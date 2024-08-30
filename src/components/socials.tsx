@@ -1,17 +1,17 @@
 import { Button } from "@/components/ui/button";
 import { IconMap } from "./icon-map";
 import { portfolioConfig } from "@/config/portfolio.config";
-import { ScheduleCallPopup, ScheduleCallFloat } from "./cal";
+import { CopyEmailButton } from "./copy-email";
 
 export const Socials = () => {
   return (
     <div className="flex flex-wrap items-center gap-2">
-      <ScheduleCallPopup />
-      <ScheduleCallFloat />
+      {/* <ScheduleCallPopup />
+      <ScheduleCallFloat /> */}
+      <CopyEmailButton />
       <Button
         variant="outline"
         className="active:border-b active:scale-[0.97] hover:border-b-4 hover:border-primary/30 hover:bg-background shadow-none transition-all duration-100"
-        asChild
       >
         <a href={portfolioConfig.resume} target="_blank">
           Resume

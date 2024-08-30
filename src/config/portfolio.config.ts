@@ -1,14 +1,17 @@
 import type { Portfolio } from "@/types";
 
 export const portfolioConfig: Portfolio = {
-  name: "Rudro Dip Sarker",
-  tagline: "I gaslight rocks 🪨 to think 🧠",
-  resume: "https://drive.google.com/file/d/1IZrep-b2l6rbyY3cgvJjbrI2Qa8kmugN/view?usp=drive_link",
+  name: "Marius Lefter",
+  tagline: "Building a better future",
+  bio: "Hey👋 Marius here! I am a software engineer. I build web apps, mobile applications, backend servers, ML solutions and much more.",
+  resume:
+    "https://drive.google.com/file/d/1YavWrcNf0kyCfofna2Q8hE6DNgAxzy0N/view?usp=sharing",
   links: {
-    github: "https://github.com/rudrodip",
-    twitter: "https://x.com/rds_agi",
-    mail: "mailto:official.rudrodipsarker@gmail.com",
-    discord: "https://discordapp.com/users/841126921886498817",
-    linkedin: "https://linkedin.com/in/rudrodip",
-  }
-}
+    github: "https://github.com/mariussde",
+    twitter: "https://x.com/Marius990635491",
+    mail: "mailto:marius.sdeing@gmail.com",
+    huggingFace: "https://huggingface.co/mariussde",
+    linkedin:
+      "https://www.linkedin.com/in/marius-lefter-lefter-17948b2a2/?locale=en_US",
+  },
+};

@@ -2,7 +2,7 @@ import type { Site } from "@/types";
 
 export const siteConfig: Site = {
   name: "mariuslefter.com",
-  title: "Marius Lefter | mariuslefter.com | Byuilding a better future",
+  title: "Marius Lefter | mariuslefter.com | Building a better future",
   description:
     "Hey 👋 Marius here! I am a software engineer. I build web apps, mobile applications, backend servers, ML solutions and much more.",
   keywords: [

@@ -21,7 +21,7 @@ export const siteConfig: Site = {
     "physics",
     "computer science",
   ],
-  siteUrl: "https://mariuslefter.com",
+  siteUrl: "https://rdsx.dev",
   creator: {
     name: "Marius Lefter",
     url: "https://mariuslefter.com",

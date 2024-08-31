@@ -13,7 +13,10 @@ export const experiencesConfig: Experience[] = [
     },
     start: "February 2024",
     end: "Present",
-    description: ["Migrating and developing enterprise level webapps", "sdsd"],
+    description: [
+      "Automated and optimized business logic for the core existing functionality.",
+      "Was given the responsibility of analyzing and migrating a whole platform from an outdated technology",
+    ],
   },
 
   {
@@ -47,8 +50,8 @@ export const experiencesConfig: Experience[] = [
     start: "Sept. 2019",
     end: "December 2023",
     description: [
-      "Participated in the development of a social media app",
-      "Built signficant part of the backend and lent a hand in frontend",
+      "Built several smaller projects throughout the years",
+      "Got my Bachelor's degree",
     ],
   },
 ];

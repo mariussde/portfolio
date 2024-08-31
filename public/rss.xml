@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0">
     <channel>
-        <title>Blogs | rdsx.dev</title>
+        <title>Blogs | mariuslefter.com</title>
         <link>https://rdsx.dev</link>
         <description>Hey! I am RDS (Rudro Dip Sarker), and its my personal blog where I share my learnings, experiences, and thoughts on different topics. I mostly talk about tech, but I don't have any specific niche.  I write about whatever I find interesting. I hope you will find my blogs helpful. Happy reading!</description>
-        <lastBuildDate>Fri, 30 Aug 2024 20:53:20 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 31 Aug 2024 18:35:19 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <image>
-            <title>Blogs | rdsx.dev</title>
+            <title>Blogs | mariuslefter.com</title>
             <url>https://rdsx.dev/logo.png</url>
             <link>https://rdsx.dev</link>
         </image>
-        <copyright>All rights reserved 2024, Rudro Dip Sarker</copyright>
+        <copyright>All rights reserved 2024, Marius Lefter</copyright>
         <item>
             <title><![CDATA[I modded the Buildspace OS]]></title>
             <link>https://rdsx.dev/blogs/buildspace-os-mod</link>

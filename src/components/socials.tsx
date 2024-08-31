@@ -14,7 +14,7 @@ export const Socials = () => {
         className="active:border-b active:scale-[0.97] hover:border-b-4 hover:border-primary/30 hover:bg-background shadow-none transition-all duration-100"
       >
         <a href={portfolioConfig.resume} target="_blank">
-          Resume
+          Read.cv
         </a>
       </Button>
       {Object.keys(portfolioConfig.links).map((key: string, index: number) => {

@@ -4,7 +4,7 @@ export const portfolioConfig: Portfolio = {
   name: "Marius Lefter",
   tagline: "Building a better future",
   bio: "Hey👋 Marius here! I am a software engineer based in Spain. I build full stack web apps, mobile applications, backend servers, ML solutions and much more.",
-  resume: "/cv%20english.pdf",
+  resume: "/cv.pdf",
   links: {
     github: "https://github.com/mariussde",
     twitter: "https://x.com/Marius990635491",

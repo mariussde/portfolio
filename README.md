@@ -2,7 +2,7 @@
 
 ## Demo
 
-You can check the live demo of this website [rdsx.dev![rdsx.dev](.github/assets/preview.png)](https://rdsx.dev)
+You can check the live demo of this website [mariuslefter.com![mariuslefter.com](.github/assets/preview.png)](https://mariuslefter.com)
 
 ## Features
 

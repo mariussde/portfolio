@@ -21,14 +21,14 @@ export const siteConfig: Site = {
     "physics",
     "computer science",
   ],
-  siteUrl: "https://rdsx.dev",
+  siteUrl: "https://mariuslefter.com",
   creator: {
     name: "Marius Lefter",
     url: "https://mariuslefter.com",
   },
   ogImage: "https://rdsx.dev/og.png",
   links: {
-    x: "https://x.com/rds_agi",
+    x: "https://x.com/Marius990635491",
     github: "https://github.com/mariussde",
   },
 };

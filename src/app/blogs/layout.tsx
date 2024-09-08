@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     siteName: siteConfig.name,
     images: [
       {
-        url: `${siteConfig.siteUrl}/blog-og.png`,
+        url: `${siteConfig.siteUrl}/og.png`,
         width: 1800,
         height: 1000,
         alt: siteConfig.name,
@@ -34,7 +34,7 @@ export const metadata: Metadata = {
     description:
       "Blogs | mariuslfter.com | Hey Marius here! I am a software engineer. I build web apps, mobile applications, backend servers, ML solutions and much more!",
     images: {
-      url: `${siteConfig.siteUrl}/blog-og.png`,
+      url: `${siteConfig.siteUrl}/og.png`,
       width: 1800,
       height: 1000,
       alt: `Blogs | ${siteConfig.name}`,

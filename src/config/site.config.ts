@@ -26,7 +26,7 @@ export const siteConfig: Site = {
     name: "Marius Lefter",
     url: "https://mariuslefter.com",
   },
-  ogImage: "https://rdsx.dev/og.png",
+  ogImage: "https://mariuslefter.com/og.png",
   links: {
     x: "https://x.com/Marius990635491",
     github: "https://github.com/mariussde",

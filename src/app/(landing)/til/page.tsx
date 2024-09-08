@@ -14,7 +14,7 @@ export const metadata: Metadata = {
     url: `${siteConfig.siteUrl}/til`,
     images: [
       {
-        url: `${siteConfig.siteUrl}/til-og.png`,
+        url: `${siteConfig.siteUrl}/og.png`,
         width: 1800,
         height: 1000,
         alt: `Today I learned | ${siteConfig.name} | ${siteConfig.creator.name}`,
@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     title: `Today I learned | ${siteConfig.name} | ${siteConfig.creator.name}`,
     description: `A list of things I learned today | Hey, I'm ${siteConfig.creator.name} and this is a journal of things I learned. I keep it as a reminder of the things I've learned and to share it with others.`,
     images: {
-      url: `${siteConfig.siteUrl}/til-og.png`,
+      url: `${siteConfig.siteUrl}/og.png`,
       width: 1800,
       height: 1000,
       alt: `Today I learned | ${siteConfig.name} | ${siteConfig.creator.name}`,

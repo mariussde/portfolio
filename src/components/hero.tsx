@@ -29,7 +29,7 @@ export default function Hero() {
         </p>
         <p>
           <span className="font-semibold text-primary/90">Backend:</span>{" "}
-          Node.js, Express.js, Java, PostgreSQL, Fastapi, Flask, Go
+          Node.js, Express.js, Java, PostgreSQL, Fastapi, Flask, Go, C++
         </p>
         <p>
           <span className="font-semibold text-primary/90">Mobile:</span> React

@@ -24,12 +24,11 @@ export default function Hero() {
       <div className="text-sm mt-10 md:mt-16 space-y-2 rounded max-w-2xl text-muted-foreground">
         <p>
           <span className="font-semibold text-primary/90">Frontend:</span>{" "}
-          React, Next.js, TailwindCSS, SCSS, Framer motion, Jest, Cypress,
-          ShadCN UI,
+          React, Next.js, Angular, javascript, typescript, TailwindCSS, Jest, Cypress
         </p>
         <p>
           <span className="font-semibold text-primary/90">Backend:</span>{" "}
-          Node.js, Express.js, Java, PostgreSQL, Fastapi, Flask, Go, C++
+          Node.js, Express.js, Java Spring Boot, PostgreSQL, Fastapi, Python, C++, javascript, typescript
         </p>
         <p>
           <span className="font-semibold text-primary/90">Mobile:</span> React
@@ -39,7 +38,20 @@ export default function Hero() {
           <span className="font-semibold text-primary/90">
             Machine Learning:
           </span>{" "}
-          PyTorch
+          PyTorch, Python, Keras, Scikit-learn
+        </p>
+        <p>
+          <span className="font-semibold text-primary/90">
+            Other:
+          </span>{" "}
+          AWS 
+        </p>
+        <p>
+          <span className="font-semibold text-primary/90">
+            Native languages:
+          </span>{" "}
+          Spanish, English, Russian, Catalan, Moldovan <br />
+          Also learning French and German
         </p>
       </div>
     </>

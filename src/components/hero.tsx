@@ -24,27 +24,24 @@ export default function Hero() {
       <div className="text-sm mt-10 md:mt-16 space-y-2 rounded max-w-2xl text-muted-foreground">
         <p>
           <span className="font-semibold text-primary/90">Frontend:</span>{" "}
-          React, Next.js, Angular, javascript, typescript, TailwindCSS, Jest, Cypress
+          React | Angular | Next js | CSS | HTML | Typescript | Javascript | Jest | Cypress
+
         </p>
         <p>
           <span className="font-semibold text-primary/90">Backend:</span>{" "}
-          Node.js, Express.js, Java Spring Boot, PostgreSQL, Fastapi, Python, C++, javascript, typescript
-        </p>
-        <p>
-          <span className="font-semibold text-primary/90">Mobile:</span> React
-          Native, Flask, Flutter
+          Java | Node js | FasAPI | Flask | C++ | C# | Express | Spring Boot | PostgreSQL | MySQL | MongoDB
         </p>
         <p>
           <span className="font-semibold text-primary/90">
             Machine Learning:
           </span>{" "}
-          PyTorch, Python, Keras, Scikit-learn
+          PyTorch | Python | Keras | Hugging Face | Scikit-learn | Neural networks | NLP
         </p>
         <p>
           <span className="font-semibold text-primary/90">
             Other:
           </span>{" "}
-          AWS 
+          AWS | EC2 | S3 | RDS | Lambda | Distributed Systems | Full-Stack | Git | Restful | PostgreSQL | MySQL | ORM | CI/CD
         </p>
         <p>
           <span className="font-semibold text-primary/90">

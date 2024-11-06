@@ -30,7 +30,7 @@ export default function Hero() {
         <p>
           <span className="font-semibold text-primary/90">Backend:</span> Java |
           Node js | FasAPI | Flask | C++ | C# | Express | Spring Boot |
-          PostgreSQL | MySQL | MongoDB
+          PostgreSQL | MySQL | MongoDB | ORM | GraphQL
         </p>
         <p>
           <span className="font-semibold text-primary/90">
@@ -42,7 +42,7 @@ export default function Hero() {
         <p>
           <span className="font-semibold text-primary/90">Other:</span> AWS |
           EC2 | S3 | RDS | Lambda | Kubernetes | Full-Stack | Git | Restful |
-          PostgreSQL | MySQL | ORM | CI/CD
+          CI/CD
         </p>
         <p>
           <span className="font-semibold text-primary/90">

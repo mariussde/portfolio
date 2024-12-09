@@ -23,35 +23,23 @@ export default function Hero() {
       <Socials />
       <div className="text-sm mt-10 md:mt-16 space-y-2 rounded max-w-2xl text-muted-foreground">
         <p>
-          <span className="font-semibold text-primary/90">Frontend:</span> React
-          | Angular | Next js | CSS | HTML | Typescript | Javascript | Jest |
-          Cypress
+          <span className="font-semibold text-primary/90">Frontend:</span> React | Angular | Next.js | CSS | HTML | TypeScript | JavaScript | Jest | Cypress
         </p>
         <p>
-          <span className="font-semibold text-primary/90">Backend:</span> Java |
-          Node js | FasAPI | Flask | C++ | C# | Express | Spring Boot |
-          PostgreSQL | MySQL | MongoDB | ORM | GraphQL
+          <span className="font-semibold text-primary/90">Backend:</span> Java | Node.js | FastAPI | Flask | C++ | C# | Express | Spring Boot | PostgreSQL | MySQL | MongoDB | ORM | GraphQL
         </p>
         <p>
-          <span className="font-semibold text-primary/90">
-            Machine Learning:
-          </span>{" "}
-          PyTorch | Python | Keras | Hugging Face | Scikit-learn | Neural
-          networks | NLP
+          <span className="font-semibold text-primary/90">Machine Learning:</span> PyTorch | Python | Keras | Hugging Face | Scikit-learn | Neural Networks | NLP
         </p>
         <p>
-          <span className="font-semibold text-primary/90">Other:</span> AWS |
-          EC2 | S3 | RDS | Lambda | Kubernetes | Full-Stack | Git | Restful |
-          CI/CD
+          <span className="font-semibold text-primary/90">Other:</span> AWS | EC2 | S3 | RDS | Lambda | Kubernetes | Full-Stack | Git | RESTful | CI/CD
         </p>
         <p>
-          <span className="font-semibold text-primary/90">
-            Native languages:
-          </span>{" "}
-          Spanish, English, Russian, Catalan, Moldovan <br />
-          Also learning French and German
+          <span className="font-semibold text-primary/90">Languages:</span> Spanish, English, Russian, Catalan, Moldovan <br />
+          <span className="font-semibold text-primary/90">Currently learning:</span> French, German
         </p>
       </div>
+
     </>
   );
 }

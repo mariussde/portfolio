@@ -17,7 +17,10 @@ const fontHeading = localFont({
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteConfig.siteUrl),
-  title: siteConfig.title,
+  title: {
+    default: siteConfig.title,
+    template: `%s | ${siteConfig.name}`,
+  },
   description: siteConfig.description,
   keywords: siteConfig.keywords,
   authors: [
@@ -27,13 +30,29 @@ export const metadata: Metadata = {
     },
   ],
   creator: siteConfig.creator.name,
-
+  alternates: {
+    canonical: siteConfig.siteUrl,
+    types: {
+      'application/rss+xml': `${siteConfig.siteUrl}/feed`,
+    },
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      'max-video-preview': -1,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
+    },
+  },
   icons: {
     icon: "/favicon.png",
     shortcut: "/favicon-16x16.png",
     apple: "/apple-touch-icon.png",
   },
-  // OpenGraph metadata
+  manifest: "/manifest.json",
   openGraph: {
     title: siteConfig.title,
     description: siteConfig.description,
@@ -50,8 +69,6 @@ export const metadata: Metadata = {
     type: "website",
     locale: "en_US",
   },
-
-  // Twitter metadata
   twitter: {
     card: "summary_large_image",
     site: siteConfig.creator.url,
@@ -64,6 +81,9 @@ export const metadata: Metadata = {
       alt: siteConfig.name,
     },
   },
+  verification: {
+    google: process.env.GOOGLE_SITE_VERIFICATION, // Use environment variable
+  },
 };
 
 export default function RootLayout({
@@ -73,6 +93,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" suppressHydrationWarning>
+      <head>
+        <link rel="alternate" type="application/rss+xml" href="/feed" title={siteConfig.title} />
+      </head>
       <body
         className={cn(
           fontHeading.variable,

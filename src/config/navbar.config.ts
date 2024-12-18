@@ -13,8 +13,8 @@ export const navbarConfig: NavItem[] = [
   //   title: "TIL",
   //   url: "/til"
   // },
-  {
-    title: "Blogs",
-    url: "/blogs",
-  },
+  // {
+  //   title: "Blogs",
+  //   url: "/blogs",
+  // },
 ];

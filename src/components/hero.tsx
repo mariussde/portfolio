@@ -26,13 +26,13 @@ export default function Hero() {
           <span className="font-semibold text-primary/90">Frontend:</span> React | Angular | Next.js | CSS | HTML | TypeScript | JavaScript | Jest | Cypress
         </p>
         <p>
-          <span className="font-semibold text-primary/90">Backend:</span> Java | Node.js | FastAPI | Flask | C++ | C# | Express | Spring Boot | PostgreSQL | MySQL | MongoDB | ORM | GraphQL
+          <span className="font-semibold text-primary/90">Backend:</span> Java | Node.js | Python | C++ | C# | FastAPI | Spring Boot | PostgreSQL | MySQL | MongoDB | GraphQL
         </p>
         <p>
-          <span className="font-semibold text-primary/90">Machine Learning:</span> PyTorch | Python | Keras | Hugging Face | Scikit-learn | Neural Networks | NLP
+          <span className="font-semibold text-primary/90">Machine Learning:</span> PyTorch | Keras | Hugging Face | Scikit-learn | Neural Networks | NLP
         </p>
         <p>
-          <span className="font-semibold text-primary/90">Other:</span> AWS | EC2 | S3 | RDS | Lambda | Kubernetes | Full-Stack | Git | RESTful | CI/CD
+          <span className="font-semibold text-primary/90">Other:</span> AWS | EC2 | S3 | RDS | Lambda | Kubernetes | Full-Stack | Git | RESTful | CI/CD | ORM
         </p>
         <p>
           <span className="font-semibold text-primary/90">Languages:</span> Spanish, English, Russian, Catalan, Moldovan <br />
